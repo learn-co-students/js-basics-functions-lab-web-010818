@@ -1,21 +1,21 @@
 // Code your solution in this file!
 
 
-function numFromHqInBlocks (num) {
+function distanceFromHqInBlocks(num) {
   if (num > 42) {
     return num - 42
   } else {
     return 42 - num
   }
 
-
 }
 
-function distanceFromHqInFeet (num) {
+function distanceFromHqInFeet(num) {
+
   return distanceFromHqInBlocks(num) * 264
 }
 
-function distanceTravelledInFeet (start, destination) {
+function distanceTravelledInFeet(start, destination) {
   if (start < destination) {
     return (destination - start) * 264
   } else {
